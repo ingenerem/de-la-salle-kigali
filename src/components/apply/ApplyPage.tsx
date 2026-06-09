@@ -147,7 +147,7 @@ export default function ApplyPage() {
   }
 
   return (
-    <main className="min-h-screen bg-slate-50 px-4 py-10 sm:px-6 lg:px-8">
+    <main className="min-h-screen bg-slate-100 px-4 py-10 sm:px-6 lg:px-8 bg-stone-50">
 
       <section className="mx-auto max-w-4xl">
         {/* Page heading */}
@@ -168,7 +168,7 @@ export default function ApplyPage() {
         {/* onSubmit connects the form to handleSubmit */}
         <form
           onSubmit={handleSubmit}
-          className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm sm:p-8"
+          className="rounded-3xl border border-slate-200 bg-stone-100 p-5 shadow-sm sm:p-8"
         >
           {/* Student section */}
           <div className="mb-10">

@@ -10,7 +10,7 @@ import { useState } from "react";
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <header className="sticky top-0 z-50 bg-white ">
+    <header className="sticky top-0 z-50 bg-white shadow-md ">
       {/* Main Header */}
       <div className="relative">
         <div className="px-3 sm:px-4">
