@@ -11,18 +11,18 @@ export default function Footer() {
   return (
     <footer id="contact" className="relative bg-blue-950 text-white">
       {/* Curved Top */}
-     <div className="relative h-10 bg-white">
-  <svg
-    className="absolute bottom-0 left-0 h-16 w-full"
-    viewBox="0 0 1440 120"
-    preserveAspectRatio="none"
-  >
-    <path
-      d="M0,64 C240,120 480,0 720,56 C960,112 1200,24 1440,72 L1440,120 L0,120 Z"
-      className="fill-blue-950"
-    />
-  </svg>
-</div>
+      <div className="relative h-10 bg-white">
+        <svg
+          className="absolute bottom-0 left-0 h-16 w-full"
+          viewBox="0 0 1440 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M0,64 C240,120 480,0 720,56 C960,112 1200,24 1440,72 L1440,120 L0,120 Z"
+            className="fill-blue-950"
+          />
+        </svg>
+      </div>
 
       <div className="mx-auto max-w-7xl px-4 py-10">
         <div className="grid gap-8 md:grid-cols-3">
@@ -58,7 +58,7 @@ export default function Footer() {
               <p>Integrity</p>
               <p>Community</p>
 
-             
+
             </div>
           </div>
 
@@ -69,23 +69,30 @@ export default function Footer() {
             </h3>
 
             <div className="space-y-3 text-sm text-white/80">
-              <p className="flex items-center gap-2">
-                <FaPhoneAlt className="text-[var(--accent)]" />
-                +250 783 806 300
-              </p>
 
-              <p className="flex items-center gap-2">
-                <FaEnvelope className="text-[var(--accent)]" />
-                 lasallekigali@gmail.com
-              </p>
-
-              <p className="flex items-center gap-2">
-                <FaMapMarkerAlt className="text-[var(--accent)]" />
-                X4V3+HRF, Kigali, Rwanda
-              </p>
+              <a href="tel:+250788123456" className="flex items-center gap-2 hover:text-[var(--accent)]">
+                📞 +250 783 806 300
+              </a>
 
               <a
-                href="https://wa.me/250788123456"
+                href="mailto:lasallekigali@gmail.com"
+                className="flex items-center gap-2 hover:text-[var(--accent)]"
+              >
+                ✉ lasallekigali@gmail.com
+              </a>
+
+              <a
+                href="https://maps.google.com/?q=X4V3%2BHRF+Kigali+Rwanda"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 hover:text-[var(--accent)]">
+
+                <FaMapMarkerAlt className="text-[var(--accent)]" />
+                X4V3+HRF, Kigali, Rwanda
+              </a>
+
+              <a
+                href="https://wa.me/+250783806300"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 transition-colors hover:text-[var(--accent)]"
