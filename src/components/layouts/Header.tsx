@@ -118,7 +118,7 @@ export default function Header() {
             </a>
 
             <a
-              href="https://wa.me/250788123456"
+              href="https://wa.me/+250783806300"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="WhatsApp"
