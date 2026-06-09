@@ -81,7 +81,7 @@ export default function Footer() {
 
               <p className="flex items-center gap-2">
                 <FaMapMarkerAlt className="text-[var(--accent)]" />
-                Address somewhere ntibuka
+                X4V3+HRF, Kigali, Rwanda
               </p>
 
               <a

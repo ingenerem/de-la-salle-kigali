@@ -114,7 +114,7 @@ export default function Header() {
               className="flex items-center gap-1 hover:text-[var(--accent)]"
             >
               <FaMapMarkerAlt />
-              <span>Address somewhere ntibuka</span>
+              <span>X4V3+HRF, Kigali, Rwanda</span>
             </a>
 
             <a
