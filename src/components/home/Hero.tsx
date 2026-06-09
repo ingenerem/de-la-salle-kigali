@@ -1,0 +1,122 @@
+import Image from "next/image";
+import Link from "next/link";
+
+export default function Hero() {
+  return (
+    <section className=" min-h-screen">
+      {/* Mobile hero */}
+      <div className="relative overflow-hidden md:hidden">
+        <Image
+          src="/images/hero-kids.png"
+          alt="De La Salle Kigali students learning in class"
+          fill
+          priority
+          className="object-cover object-top blur-[1px]"
+        />
+
+        <div className="absolute inset-0 bg-blue-950/70" />
+
+        <div className="relative z-10 px-6 pt-7 pb-10 text-white">
+          <p className="mb-8 text-xs font-bold uppercase tracking-[0.3em] text-yellow-400">
+            Welcome To
+          </p>
+
+          <h1 className="mb-2 text-4xl font-bold leading-tight">
+            De La Salle Kigali
+          </h1>
+
+          <h2 className="mb-2 text-3xl font-bold leading-tight text-yellow-400">
+            A Primary School
+            <br />
+            Building Bright Futures
+          </h2>
+
+          <div className="mb-5 mt-4 h-[2px] w-40 bg-white" />
+
+          <p className="max-w-[390px] text-base leading-7 text-blue-50">
+            We provide a nurturing and joyful environment where every child is
+            known, valued, and inspired to learn, grow and shine.
+          </p>
+
+          <div className="mt-6 flex gap-3">
+            <Link
+              href="/about"
+              className="flex h-11 flex-1 items-center justify-center rounded-md bg-yellow-400 px-4 text-[11px] font-bold uppercase tracking-wide text-blue-950"
+            >
+              Discover
+            </Link>
+
+            <Link
+              href="/admissions"
+              className="flex h-11 flex-1 items-center justify-center rounded-md border border-white/80 px-4 text-[11px] font-bold uppercase tracking-wide text-white"
+            >
+              Admissions
+            </Link>
+          </div>
+        </div>
+      </div>
+
+     
+     {/* Tablet/Desktop hero */}
+<div className="hidden min-h-[560px] overflow-hidden bg-blue-950 md:grid md:grid-cols-[42%_58%]">
+  
+  {/* Left content */}
+  <div className="flex items-center px-12 text-white lg:px-20">
+    <div className="max-w-[520px]">
+      <p className="mb-4 text-sm font-bold uppercase tracking-[0.25em] text-yellow-400">
+        Welcome To
+      </p>
+
+      <h1 className="mb-4 text-5xl font-bold leading-tight">
+        De La Salle - Kigali
+      </h1>
+
+      <h2 className="text-4xl font-bold leading-tight text-yellow-400">
+        A Primary School
+        <br />
+        Building Bright Futures
+      </h2>
+
+      <div className="mb-7 mt-6 h-[2px] w-24 bg-white" />
+
+      <p className="mb-10 max-w-[440px] text-lg leading-8 text-blue-50">
+        We provide a nurturing and joyful environment where every child is
+        known, valued, and inspired to learn, grow and shine.
+      </p>
+
+      <div className="flex gap-4">
+        <Link
+          href="/about"
+          className="flex h-12 items-center justify-center rounded-md bg-yellow-400 px-7 text-sm font-bold uppercase text-blue-950"
+        >
+          Discover Our School
+        </Link>
+
+        <Link
+          href="/admissions"
+          className="flex h-12 items-center justify-center rounded-md border border-white px-7 text-sm font-bold uppercase text-white"
+        >
+          Admissions Info
+        </Link>
+      </div>
+    </div>
+  </div>
+
+  {/* Right curved image panel */}
+  <div className="relative min-h-[560px] overflow-hidden rounded-l-[47%] border-l-2 border-blue-950/80">
+   
+
+    <div className="absolute inset-0 bg-blue-950/15" />
+     <Image
+      src="/images/hero-kids.png"
+      alt="De La Salle Kigali students learning in class"
+      fill
+      priority
+      className="object-cover object-center blur-[1px]"
+    />
+  </div>
+</div>
+
+    </section>
+  );
+}

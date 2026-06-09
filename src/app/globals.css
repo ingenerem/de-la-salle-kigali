@@ -2,25 +2,74 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #1f2937;
+
+  /* De La Salle Colors */
+  --primary: #0f2d6b;
+  --primary-light: #1d4ed8;
+  --accent: #d4a017;
+  --muted: #f8fafc;
+
+  --border: #e5e7eb;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+    margin: 0;
+  padding: 0;
+}
+
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.btn-primary {
+  background: var(--accent);
+  color: #ffffff;
+  padding: 0.875rem 1.5rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.btn-secondary {
+  background: var(--primary);
+  color: white;
+  padding: 0.875rem 1.5rem;
+  border-radius: 9999px;
+  font-weight: 600;
+}
+
+@theme {
+  --color-red-50: #fef2f2;
+  --color-red-100: #fee2e2;
+  --color-red-200: #fecaca;
+  --color-red-300: #fca5a5;
+  --color-red-600: #dc2626;
+  --color-red-700: #b91c1c;
+
+  --color-green-50: #f0fdf4;
+  --color-green-100: #dcfce7;
+  --color-green-200: #bbf7d0;
+  --color-green-700: #15803d;
 }
