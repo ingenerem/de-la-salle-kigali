@@ -97,7 +97,7 @@ export default function Header() {
         <div className="mx-auto flex items-center justify-center overflow-x-auto whitespace-nowrap text-[10px] sm:text-[11px] lg:min-h-8 lg:text-xs">
           <div className="flex items-center gap-5 lg:gap-10">
             <a href="tel:+250788123456" className="hover:text-[var(--accent)]">
-              📞 +250 788 123 456
+              📞 +250 783 806 300
             </a>
 
             <a
@@ -114,7 +114,7 @@ export default function Header() {
               className="flex items-center gap-1 hover:text-[var(--accent)]"
             >
               <FaMapMarkerAlt />
-              <span>KG 9 Ave, Kacyiru, Kigali</span>
+              <span>Address somewhere ntibuka</span>
             </a>
 
             <a

@@ -71,17 +71,17 @@ export default function Footer() {
             <div className="space-y-3 text-sm text-white/80">
               <p className="flex items-center gap-2">
                 <FaPhoneAlt className="text-[var(--accent)]" />
-                +250 788 123 456
+                +250 783 806 300
               </p>
 
               <p className="flex items-center gap-2">
                 <FaEnvelope className="text-[var(--accent)]" />
-                info@delasalle-kigali.rw
+                 lasallekigali@gmail.com
               </p>
 
               <p className="flex items-center gap-2">
                 <FaMapMarkerAlt className="text-[var(--accent)]" />
-                KG 9 Ave, Kacyiru, Kigali
+                Address somewhere ntibuka
               </p>
 
               <a
