@@ -40,10 +40,10 @@ export default function Hero() {
 
           <div className="mt-6 flex gap-3">
             <Link
-              href="/about"
+              href="/#whyus"
               className="flex h-11 flex-1 items-center justify-center rounded-md bg-yellow-400 px-4 text-[11px] font-bold uppercase tracking-wide text-blue-950"
             >
-              Discover
+              Why Choose Us
             </Link>
 
             <Link
