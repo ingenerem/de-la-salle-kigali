@@ -2,9 +2,9 @@ import Card from "../ui/Card";
 
 export default function WhyChooseUs() {
   return (
-    <section className="bg-white px-4 py-16">
+    <section id="whyus" className="bg-white px-4 py-16">
       <div className="mx-auto max-w-7xl">
-        <div className="mb-12 text-center">
+        <div  className="mb-12 text-center">
           <p className="font-semibold uppercase tracking-wider text-[var(--accent)]">
             Why Choose De La Salle Kigali
           </p>
@@ -19,7 +19,7 @@ export default function WhyChooseUs() {
           </p>
         </div>
 
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-6 grid-cols-2 lg:grid-cols-4">
           <Card className="p-6 text-center">
             <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-blue-100 text-3xl">
               📚

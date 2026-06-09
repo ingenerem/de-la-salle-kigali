@@ -73,3 +73,12 @@ img {
   --color-green-200: #bbf7d0;
   --color-green-700: #15803d;
 }
+
+.card-target {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card-target:target {
+  transform: scale(1.02);
+  box-shadow: 0 0 0 4px #facc15, 0 14px 30px rgba(15, 23, 42, 0.18);
+}

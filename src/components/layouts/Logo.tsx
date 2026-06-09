@@ -18,14 +18,14 @@ export default function Logo() {
         width={100}
         height={100}
         priority
-        className="h-12 w-12 md:h-16 md:w-36 lg:h-30 lg:w-20"
+        className="h-12 w-12 md:h-16 md:w-26 lg:h-30 lg:w-20"
       />
 
-      <div>
+      <div className="shrink-0 mr-2 lg:w-72">
         <h1 className={`${playfair.className} text-3xl font-bold text-blue-900`}>
           De La Salle
         </h1>
-        <p className="text-sm tracking-wider text-blue-900">
+        <p className="text-sm tracking-wider text-blue-900 ">
           KIGALI
         </p>
       </div>

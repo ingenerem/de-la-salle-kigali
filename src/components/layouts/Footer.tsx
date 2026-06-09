@@ -49,37 +49,16 @@ export default function Footer() {
           {/* Quick Links */}
           <div>
             <h3 className="mb-4 font-bold text-[var(--accent)]">
-              Explore
+              Our values
             </h3>
 
             <div className="flex flex-col gap-2 text-sm text-white/80">
-              <Link
-                href="/about"
-                className="transition-colors hover:text-[var(--accent)]"
-              >
-                About
-              </Link>
+              <p>Excellence</p>
+              <p>Respect</p>
+              <p>Integrity</p>
+              <p>Community</p>
 
-              <Link
-                href="/academics"
-                className="transition-colors hover:text-[var(--accent)]"
-              >
-                Academics
-              </Link>
-
-              <Link
-                href="/admissions"
-                className="transition-colors hover:text-[var(--accent)]"
-              >
-                Admissions
-              </Link>
-
-              <Link
-                href="/apply"
-                className="transition-colors hover:text-[var(--accent)]"
-              >
-                Apply Now
-              </Link>
+             
             </div>
           </div>
 

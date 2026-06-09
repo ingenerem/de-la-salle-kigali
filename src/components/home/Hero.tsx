@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className=" min-h-screen">
+    <section >
       {/* Mobile hero */}
       <div className="relative overflow-hidden md:hidden">
         <Image
@@ -60,46 +60,45 @@ export default function Hero() {
      {/* Tablet/Desktop hero */}
 <div className="hidden min-h-[560px] overflow-hidden bg-blue-950 md:grid md:grid-cols-[42%_58%]">
   
-  {/* Left content */}
-  <div className="flex items-center px-12 text-white lg:px-20">
-    <div className="max-w-[520px]">
-      <p className="mb-4 text-sm font-bold uppercase tracking-[0.25em] text-yellow-400">
-        Welcome To
-      </p>
+<div className="flex items-center px-6 py-12 text-white md:px-10 lg:px-20">
+  <div className="max-w-[520px]">
+    <p className="mb-3 text-xs font-bold uppercase tracking-[0.25em] text-yellow-400 lg:mb-4 lg:text-sm">
+      Welcome To
+    </p>
 
-      <h1 className="mb-4 text-5xl font-bold leading-tight">
-        De La Salle - Kigali
-      </h1>
+    <h1 className="mb-3 text-3xl font-bold leading-tight md:text-4xl lg:mb-4 lg:text-5xl">
+      De La Salle - Kigali
+    </h1>
 
-      <h2 className="text-4xl font-bold leading-tight text-yellow-400">
-        A Primary School
-        <br />
-        Building Bright Futures
-      </h2>
+    <h2 className="text-2xl font-bold leading-tight text-yellow-400 md:text-3xl lg:text-4xl">
+      A Primary School
+      <br />
+      Building Bright Futures
+    </h2>
 
-      <div className="mb-7 mt-6 h-[2px] w-24 bg-white" />
+    <div className="mb-5 mt-5 h-[2px] w-20 bg-white lg:mb-7 lg:mt-6 lg:w-24" />
 
-      <p className="mb-10 max-w-[440px] text-lg leading-8 text-blue-50">
-        We provide a nurturing and joyful environment where every child is
-        known, valued, and inspired to learn, grow and shine.
-      </p>
+    <p className="mb-7 max-w-[440px] text-base leading-7 text-blue-50 lg:mb-10 lg:text-lg lg:leading-8">
+      We provide a nurturing and joyful environment where every child is known,
+      valued, and inspired to learn, grow and shine.
+    </p>
 
-      <div className="flex gap-4">
-        <Link
-          href="/about"
-          className="flex h-12 items-center justify-center rounded-md bg-yellow-400 px-7 text-sm font-bold uppercase text-blue-950"
-        >
-          Discover Our School
-        </Link>
+    <div className="flex flex-wrap gap-3 lg:gap-4">
+      <Link
+        href="/#whyus"
+        className="flex h-11 items-center justify-center rounded-md bg-yellow-400 px-5 text-xs font-bold uppercase text-blue-950 lg:h-12 lg:px-7 lg:text-sm"
+      >
+        Why Choose Us
+      </Link>
 
-        <Link
-          href="/admissions"
-          className="flex h-12 items-center justify-center rounded-md border border-white px-7 text-sm font-bold uppercase text-white"
-        >
-          Admissions Info
-        </Link>
-      </div>
+      <Link
+        href="/admissions#admissions-top"
+        className="flex h-11 items-center justify-center rounded-md border border-white px-5 text-xs font-bold uppercase text-white lg:h-12 lg:px-7 lg:text-sm"
+      >
+        Admissions Info
+      </Link>
     </div>
+  </div>
   </div>
 
   {/* Right curved image panel */}
