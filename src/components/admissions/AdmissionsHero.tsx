@@ -38,7 +38,7 @@ export default function AdmissionsHero() {
 
         <div className="relative h-64 overflow-hidden rounded-3xl shadow-2xl md:h-72 lg:h-80">
           <Image
-            src="/images/admission-kids.png"
+            src="/images/admission-kids.jpeg"
             alt="De La Salle students walking on campus"
             fill
             className="object-cover"

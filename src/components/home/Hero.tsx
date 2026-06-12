@@ -7,11 +7,11 @@ export default function Hero() {
       {/* Mobile hero */}
       <div className="relative overflow-hidden md:hidden">
         <Image
-          src="/images/hero-kids.png"
+          src="/images/hero-kids.jpeg"
           alt="De La Salle Kigali students learning in class"
           fill
           priority
-          className="object-cover object-top blur-[1px]"
+          className="object-cover object-top blur-[1.5px]"
         />
 
         <div className="absolute inset-0 bg-blue-950/70" />
@@ -107,7 +107,7 @@ export default function Hero() {
 
     <div className="absolute inset-0 bg-blue-950/15" />
      <Image
-      src="/images/hero-kids.png"
+      src="/images/hero-kids.jpeg"
       alt="De La Salle Kigali students learning in class"
       fill
       priority

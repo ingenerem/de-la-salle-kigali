@@ -108,7 +108,7 @@ export default function Header() {
             </a>
 
             <a
-              href="https://www.google.com/maps/search/?api=1&query=KG+9+Ave,+Kacyiru,+Kigali"
+              href="https://maps.google.com/?q=X4V3%2BHRF+Kigali+Rwanda"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-1 hover:text-[var(--accent)]"
