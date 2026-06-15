@@ -21,7 +21,7 @@ export default function Hero() {
             Welcome To
           </p>
 
-          <h1 className="mb-2 text-4xl font-bold leading-tight">
+          <h1 className="mb-2 text-3xl font-bold leading-tight">
             Kigali De La Salle School
           </h1>
 
@@ -66,7 +66,7 @@ export default function Hero() {
       Welcome To
     </p>
 
-    <h1 className="mb-3 text-3xl font-bold leading-tight md:text-4xl lg:mb-4 lg:text-5xl">
+    <h1 className="mb-3 text-2xl font-bold leading-tight md:text-3xl lg:mb-4 lg:text-4xl">
       Kigali De La Salle School
     </h1>
 
