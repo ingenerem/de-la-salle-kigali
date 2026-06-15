@@ -22,13 +22,13 @@ export default function Hero() {
           </p>
 
           <h1 className="mb-2 text-4xl font-bold leading-tight">
-            De La Salle Kigali
+            Kigali De La Salle School
           </h1>
 
-          <h2 className="mb-2 text-3xl font-bold leading-tight text-yellow-400">
-            A Primary School
+          <h2 className="mb-2 text-2xl font-bold leading-tight text-yellow-400">
+            Teaching minds, touching hearts
             <br />
-            Building Bright Futures
+            and transforming lives
           </h2>
 
           <div className="mb-5 mt-4 h-[2px] w-40 bg-white" />
@@ -67,13 +67,13 @@ export default function Hero() {
     </p>
 
     <h1 className="mb-3 text-3xl font-bold leading-tight md:text-4xl lg:mb-4 lg:text-5xl">
-      De La Salle - Kigali
+      Kigali De La Salle School
     </h1>
 
-    <h2 className="text-2xl font-bold leading-tight text-yellow-400 md:text-3xl lg:text-4xl">
-      A Primary School
+    <h2 className="text-2xl font-bold leading-tight text-yellow-400 md:text-2xl lg:text-3xl">
+      Teaching minds, touching hearts
       <br />
-      Building Bright Futures
+      and transforming lives
     </h2>
 
     <div className="mb-5 mt-5 h-[2px] w-20 bg-white lg:mb-7 lg:mt-6 lg:w-24" />

@@ -53,10 +53,9 @@ export default function Footer() {
             </h3>
 
             <div className="flex flex-col gap-2 text-sm text-white/80">
-              <p>Excellence</p>
-              <p>Respect</p>
-              <p>Integrity</p>
-              <p>Community</p>
+              <p>Faith</p>
+              <p>Fraternity</p>
+              <p>Responsibility</p>
 
 
             </div>
